@@ -6,13 +6,12 @@
 //
 
 import UIKit
-//import RealmSwift
-//import ChameleonFramework
+import RealmSwift
+import ChameleonFramework
 
 class ItemsTableViewController: SwipeTableViewController {
     
     @IBOutlet weak var searchBar: UISearchBar!
-    /*
     var itemsArr : Results<Item>?
     let realm = try! Realm()
     var selectedCat : Category? {
@@ -169,5 +168,4 @@ extension ItemsTableViewController : UISearchBarDelegate{
             }
         }
     }
-     */
 }

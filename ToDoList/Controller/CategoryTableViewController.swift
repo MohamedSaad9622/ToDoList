@@ -6,12 +6,12 @@
 //
 
 import UIKit
-//import RealmSwift
-//import ChameleonFramework
+import RealmSwift
+import ChameleonFramework
 
 
 class CategoryTableViewController: SwipeTableViewController {
-    /*
+
     let realm = try! Realm()
     var categories: Results<Category>?
     
@@ -108,5 +108,4 @@ class CategoryTableViewController: SwipeTableViewController {
             }
         }
     }
-     */
 }

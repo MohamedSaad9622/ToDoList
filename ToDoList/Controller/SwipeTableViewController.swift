@@ -6,9 +6,9 @@
 //
 
 import UIKit
-//import SwipeCellKit
+import SwipeCellKit
 
-class SwipeTableViewController: UITableViewController /*, SwipeTableViewCellDelegate*/ {
+class SwipeTableViewController: UITableViewController , SwipeTableViewCellDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +16,7 @@ class SwipeTableViewController: UITableViewController /*, SwipeTableViewCellDele
     }
     
     // MARK: - Table view data source
-/*
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! SwipeTableViewCell
         cell.delegate = self
@@ -49,5 +49,4 @@ class SwipeTableViewController: UITableViewController /*, SwipeTableViewCellDele
     func updateModel(at indexPath: IndexPath) {
         // it will be override in subClasses
     }
-*/
 }

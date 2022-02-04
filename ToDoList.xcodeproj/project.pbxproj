@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0417917427AD86D600208EC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417917327AD86D600208EC1 /* AppDelegate.swift */; };
 		0417917627AD86D600208EC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417917527AD86D600208EC1 /* SceneDelegate.swift */; };
-		0417917827AD86D600208EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417917727AD86D600208EC1 /* ViewController.swift */; };
 		0417917D27AD86D900208EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0417917C27AD86D900208EC1 /* Assets.xcassets */; };
 		0417918C27AD86F400208EC1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417918827AD86F400208EC1 /* Item.swift */; };
 		0417918D27AD86F400208EC1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417918927AD86F400208EC1 /* Category.swift */; };
@@ -25,7 +24,6 @@
 		0417917027AD86D600208EC1 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0417917327AD86D600208EC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0417917527AD86D600208EC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0417917727AD86D600208EC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0417917C27AD86D900208EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0417918127AD86D900208EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0417918827AD86F400208EC1 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 				0417918727AD86F400208EC1 /* Model Data */,
 				0417917327AD86D600208EC1 /* AppDelegate.swift */,
 				0417917527AD86D600208EC1 /* SceneDelegate.swift */,
-				0417917727AD86D600208EC1 /* ViewController.swift */,
 				0417917C27AD86D900208EC1 /* Assets.xcassets */,
 				0417918127AD86D900208EC1 /* Info.plist */,
 			);
@@ -119,7 +116,6 @@
 				05A8EE2189ACB7F9FFC4ABF1 /* Pods-ToDoList.debug.xcconfig */,
 				AED545C2B61AE2DE1FDDD2BB /* Pods-ToDoList.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -251,7 +247,6 @@
 				0417918C27AD86F400208EC1 /* Item.swift in Sources */,
 				0417918D27AD86F400208EC1 /* Category.swift in Sources */,
 				0417919327AD874D00208EC1 /* ItemsTableViewController.swift in Sources */,
-				0417917827AD86D600208EC1 /* ViewController.swift in Sources */,
 				0417917427AD86D600208EC1 /* AppDelegate.swift in Sources */,
 				0417917627AD86D600208EC1 /* SceneDelegate.swift in Sources */,
 			);
